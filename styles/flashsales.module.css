@@ -1,0 +1,20 @@
+.flashSales {
+
+    
+    margin-left: 90px;
+    overflow-x: auto;
+
+}
+
+.timer {
+    width: 100%;
+
+}
+
+.productsDisplay {
+    width: 80%;
+    display: flex;
+    gap: 70px;
+   
+
+}

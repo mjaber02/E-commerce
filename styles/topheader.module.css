@@ -1,0 +1,90 @@
+.topHeader{
+    background-color: black;
+    width:100%;
+    height:48px;
+    color:#FAFAFA;
+ 
+    font-size: 14px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;   
+}
+.empty{
+    width:10%;
+}
+.SummerSale{
+    width:30%;
+}
+.topHeader a{
+    font-weight: bold;
+    color:#FAFAFA;
+}
+.languages{
+    cursor: pointer;
+  
+    width:10%;
+}
+.options {
+    position: absolute;
+    top:90%;
+    list-style-type: none; 
+    
+  }
+  .options div {
+    padding: 8px 12px; 
+    cursor: pointer; 
+    background-color: black;
+  }
+  
+  .options div:hover {
+    background-color: black; 
+  }
+
+
+
+
+@media screen and (max-width:1600px) {
+    .SummerSale{
+        width:40%;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .SummerSale{
+        width:50%;
+    }
+    
+}
+
+
+
+.hidden{
+    
+  appearance: none; 
+}
+
+@media screen and (max-width:955px) {
+    .empty{
+        display: none;
+    }
+  
+    .languages{
+        display: none;
+    }
+    .SummerSale{
+      
+        width:100%;
+    }
+    .topHeader{
+        text-align: center;
+    }
+
+    
+}
+
+.arrowIcon {
+    margin-left: 5px; 
+    color:white;
+  }

@@ -1,0 +1,115 @@
+.carouselContainer {
+    position: relative;
+    margin-top: 50px;
+    width:100%;
+  
+}
+
+.carouselIphone {
+    width: 100%;
+    background-color: black;
+    height: 344px;
+    display: none;
+}
+
+.carouselIphone.active {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 344px;
+}
+
+.carouselText {
+    width: 90%;
+    padding: 70px;
+}
+
+.carouselImage {
+    background-image: url("../svgs/iphone.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+.iphoneSeries {
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+
+.voucher {
+    color: white
+}
+
+.shopNow {
+    color: white;
+}
+
+.circle {
+    width: 14px;
+    height: 14  px;
+    border-radius: 12px;
+    background-color: grey;
+   
+}
+
+.selectedCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: red;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.navigationCircles {
+    gap: 5px;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+}
+@media screen and (max-width:955px) {
+    .carouselContainer
+    {
+        width:80%;
+    }
+    
+}
+@media screen and (max-width:855px) {
+ .carouselText{
+    width:100%;
+ }
+ .voucher h1{
+    font-size: 20px;
+ }
+ .carouselText{
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .carouselImage{
+    display: none;
+ }
+    
+}
+@media screen and (max-width:400px) {
+    .voucher h1{
+        font-size: 15px;
+     }
+
+    .carouselText{
+        padding:50px;
+    }
+
+    
+}

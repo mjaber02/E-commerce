@@ -1,0 +1,52 @@
+.main{
+    width:90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  background-color: black;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.text{
+    width:40%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.text h5{
+    color:rgba(0, 255, 102, 1);
+}
+.text h1{
+    color:white;
+}
+.image{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.text button{
+    border-radius: 4px;
+    width:171px;
+    height:56px;
+    gap:10px;
+    background-color:rgba(0, 255, 102, 1);
+    color:white;
+    margin-top: 100px;
+
+}

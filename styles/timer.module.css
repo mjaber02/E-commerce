@@ -1,0 +1,67 @@
+.flashSales {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    gap: 20px;
+    padding-bottom: 40px;
+
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+
+
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+ 
+
+
+
+}
+
+.timeDisplay {
+    display: flex;
+    gap:-20px;
+    width: 100%;
+    margin-top: 20px;
+   
+    
+}
+
+.days {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+}
+
+
+
+
+
+
+
+.arrow {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.colon {
+ 
+    color: #E07575;
+    padding-left: 10px;
+    
+}

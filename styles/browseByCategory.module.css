@@ -1,0 +1,23 @@
+.category{
+    width:170px;
+    height:145px;
+    border-radius: 4px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+   
+  
+
+
+
+}
+.category p{
+    text-align: center;
+}
+.imageStyle{
+    width:56px;
+    height:56px;
+}

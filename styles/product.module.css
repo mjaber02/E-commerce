@@ -1,0 +1,91 @@
+.product {
+    width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.productImage {
+    width: 270px;
+    height: 300px;
+    position: relative;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+
+}
+
+
+.discount {
+    position: absolute;
+    left: 3%;
+    background-color: #DB4444;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    width: 55px;
+    height: 26px;
+
+
+}
+
+.addtocart {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.addtocart button{
+    width: 100%;
+    background-color: black;
+    height: 41px;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.productDetails {
+    width: 98.3%;
+
+    padding-left: 5px;
+
+}
+
+.productDetails p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+
+.prices {
+    width: 100%;
+
+
+}
+
+.discountInfo {
+    display: flex;
+}
+
+.discountedPrice {
+    font-size: 16px;
+    color: #DB4444;
+    padding-right: 10px;
+    line-height: 24px;
+
+}
+
+.originalPrice {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: grey;
+    line-height: 24px;
+
+
+}
